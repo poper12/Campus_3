@@ -1,10 +1,10 @@
 env_vars = {
   # Get From my.telegram.org
-  "API_HASH": "e9bfc473049cbaeff901ca6892d559c7",
+  "API_HASH": "",
   # Get From my.telegram.org
-  "API_ID": "20373005",
+  "API_ID": "",
   #Get For @BotFather
-  "BOT_TOKEN": "8086700219:AAFUE3Q8ozqWs9_FPfzgvqdFss21Me_HfVI",
+  "BOT_TOKEN": "",
   # Get For tembo.io
   "DATABASE_URL_PRIMARY": "postgresql://neondb_owner:npg_NoDFHanE76qR@ep-twilight-fire-a80mx792-pooler.eastus2.azure.neon.tech/neondb?sslmode=require",
   # Logs Channel Username Without @
