@@ -113,8 +113,12 @@ def get_buttons_for_options(user_options: int):
     return InlineKeyboardMarkup(buttons)
 
 
+nano = env_vars.get('API_ID')
+if not nano or not nano.isdigit():
+    raise ValueError("api id is not a valid digit or a integer..")
+
 bot = Client('bot',
-             api_id=int(env_vars.get('API_ID')),
+             api_id=int(nano),
              api_hash=env_vars.get('API_HASH'),
              bot_token=env_vars.get('BOT_TOKEN'),
              max_concurrent_transmissions=3)
