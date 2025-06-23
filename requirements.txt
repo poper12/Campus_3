@@ -17,3 +17,4 @@ flask
 gunicorn
 cloudscraper
 motor
+python-dotenv
