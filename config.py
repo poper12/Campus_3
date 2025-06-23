@@ -1,10 +1,15 @@
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
 env_vars = {
   # Get From my.telegram.org
-  "API_HASH": "",
+  "API_HASH": os.getenv("API_HASH", ""),
   # Get From my.telegram.org
-  "API_ID": "",
+  "API_ID": os.getenv("API_ID", ""),
   #Get For @BotFather
-  "BOT_TOKEN": "",
+  "BOT_TOKEN": os.getenv("BOT_TOKEN", ""),
   # Get For tembo.io
   "DATABASE_URL_PRIMARY": "postgresql://neondb_owner:npg_NoDFHanE76qR@ep-twilight-fire-a80mx792-pooler.eastus2.azure.neon.tech/neondb?sslmode=require",
   # Logs Channel Username Without @
