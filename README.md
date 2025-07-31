@@ -1,7 +1,7 @@
 <p align="center">
     <a href="https://github.com/Dra-Sama/mangabot">
         <kbd>
-            <img width="250" src="https://envs.sh/So4.jpg" alt="Manga Bot">
+            <img width="250" src="" alt="Manga Bot">
         </kbd>
     </a>
 </p>
